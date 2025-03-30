@@ -1,21 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+html,body{
+    max-width: 400px;
+    font-family:"Noto Sans", serif;
+}
 body{
     height: 100vh;
-    max-width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    background-color: beige;
+    justify-content: center;
     overflow: hidden;
+    background-size: cover;
 }
 
 .icon{
-    background-color: red;
-    height: 100px;
-    width: 100px;
+    height: 180px;
+    width: 180px;
 }
-image{
+.icon img{
     height: 100%;
     width: 100%;
-    object-fit: cover;
+}
+.town-time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-left:solid 4px black;
+    padding-left: 2vw;
+    margin-right: auto;
+    margin-left: 4vw;
+}
+.town{
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+.temperature{
+    font-weight: bold;
+    margin:10px;
+    font-size: 2.3rem;
+}
+.space{
+    width:360px;
+    height:5px;
+    border-radius: 5px;
+}
+.space-1{
+    flex-grow: .8;
+}
+.space-2{
+    flex-grow:.4
+}
+.space-3{
+    flex-grow: 1;
 }
