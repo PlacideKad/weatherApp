@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 html,body{
-    max-width: 400px;
+    min-width: 400px;
     font-family:"Noto Sans", serif;
 }
 body{
@@ -11,11 +11,11 @@ body{
     justify-content: center;
     overflow: hidden;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .icon{
-    height: 180px;
-    width: 180px;
+    height: 35%;
 }
 .icon img{
     height: 100%;
